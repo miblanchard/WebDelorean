@@ -5,11 +5,12 @@ input {
 	border-radius: 4px;
 	box-shadow: 0px 0px 10px 000000;
 	margin-top: 10%;
+	margin-bottom: 60px;
 }
 
 h1 {
-	margin-top: 10px;
-	margin-bottom: 5px;
+	margin-top: 15px;
+	margin-bottom: 50px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -23,6 +24,11 @@ h1 {
 	display: block;
 	margin: auto;
 	padding: 10px;
+	margin-top: 60px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px 000000;
+	background-color: white;
+	color: black;
 }
 
 #month {
@@ -76,9 +82,9 @@ body {
    width: 100%;
    background: rgba(255, 255, 255, .8);
    text-align: center;
-   padding-top: 20%;
+   padding-top: 15%;
    font-family: 'Open Sans', sans-serif;
-   font-size: 36px;
+   font-size: 30px;
 }
 
 
@@ -99,4 +105,17 @@ body.loading .modal {
 	width: 100%;
 	background: rgba(255, 255, 255, .8);
 	text-align: center;
+	font-size: 30px;
+}
+
+p {
+	font-size: 30px;
+}
+
+#error {
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px 000000;
+	background-color: white;
+	color: black;
 }

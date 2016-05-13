@@ -58,8 +58,8 @@ function checkInputs(){
 	var year = document.getElementById('year').value;
 	var currentDate = new Date();
 	if (!day && !month && !year) return false;
-	if (isNaN(Number(day)) || day > 31) return "Invalid Day value";
 	if (isNaN(Number(month)) || month > 12) return "Invalid Month value";
+	if (isNaN(Number(day)) || day > 31) return "Invalid Day value";
 	if (isNaN(Number(year)) || year > currentDate.getFullYear()) return "Invalid Year value";
 	return false;
 }
@@ -79,7 +79,7 @@ function buildUrl () {
 		if(year <= 16) year = "20" + year;
 		else year = "19" + year;
 	}
-	if (!desiredURL) desiredURL = "apple.com"
+	if (!desiredURL) desiredURL = "apple.com";
 	var sendURL = baseURL + year + month + day + "/" + desiredURL;
 	console.log(sendURL);
 	return sendURL;

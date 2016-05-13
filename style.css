@@ -1,0 +1,102 @@
+input {
+	display: inline-block;
+	/*position: relative;
+	float: left;*/
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px 000000;
+	margin-top: 10%;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#great_scott{
+	color: black;
+	margin: 10px
+}
+
+#checkPage {
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+#month {
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+
+#day {
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+
+#year {
+	width: 75px;
+	height: 25px;
+	margin: 5px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+
+#url {
+	height: 25px;
+	width: 200px;
+	margin: 5px;
+	border-radius: 4px;
+}
+
+body {
+	background-image: url('back.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-color: grey;
+	text-align: center;
+	height: 250px;
+	width: 600px;
+}
+
+.modal {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: rgba(255, 255, 255, .8);
+   text-align: center;
+   padding-top: 20%;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 36px;
+}
+
+
+body.loading {
+   overflow: hidden; 
+}
+
+body.loading .modal {
+   display: block;
+}
+
+#alert {
+	display: none;
+	position: fixed;
+	top: 0;
+    left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, .8);
+	text-align: center;
+}

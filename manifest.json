@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "WebDelorean",
+  "description": "This extension allow you to travel back in time on your favorite websites!",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "WebDelorean.html"
+  },
+  "permissions": [
+    "tabs", "*://*/*"
+  ],
+  "content_scripts": [
+   {
+   "matches": [
+       "http://*/*",
+       "https://*/*"
+       ],
+   "js": ["jquery-2.2.3.min.js", "main.js"]
+   },
+    // "background": {
+    //     "scripts": ["background.js"],
+    //     "persistent": true
+    // },
+ ]
+} 
